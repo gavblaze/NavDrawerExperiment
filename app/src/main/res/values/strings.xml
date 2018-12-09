@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Nav Drawer Experiment</string>
+    <string name="gallery">Gallery</string>
+    <string name="slideshow">Slideshow</string>
+    <string name="tools">Tools</string>
+    <string name="im_port">Import</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+
+</resources>

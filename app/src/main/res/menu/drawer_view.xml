@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/menu_top">
+
+    <item
+        android:id="@+id/im_port"
+        android:icon="@drawable/ic_action_im_port"
+        android:title="@string/im_port"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/gallery"
+        android:icon="@drawable/ic_action_gallery"
+        android:title="@string/gallery"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/slideshow"
+        android:icon="@drawable/ic_action_slideshow"
+        android:title="@string/slideshow"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/tools"
+        android:icon="@drawable/ic_action_tools"
+        android:title="@string/tools"
+        app:showAsAction="ifRoom"/>
+    </group>
+
+        <item
+            android:title="@string/communicate"
+            android:enabled="false"
+            android:checkable="false">
+            <menu>
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_action_share"
+            android:title="@string/share"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/send"
+            android:icon="@drawable/ic_action_send"
+            android:title="@string/send"
+            app:showAsAction="ifRoom"/>
+            </menu>
+        </item>
+
+</menu>
